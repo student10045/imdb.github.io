@@ -1,0 +1,202 @@
+body {
+    background-image: url('bg5.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: red;
+    font-weight: bolder;
+    background-color: blue;
+    justify-items: center;
+}
+
+header {
+    background-color: yellow;
+    padding: 16px;
+    text-align: end;
+    color: green;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: pink;
+    box-shadow: inset;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.quote-container {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: orange;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#quoteText {
+    font-size: 20px;
+    font-weight: bold;
+    color: maroon;
+    margin: 10px;
+}
+
+.card-body {
+    background-color: black;
+}
+
+.search-container {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: goldenrod;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+}
+
+#searchInput {
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    border: 4px violet solid;
+    color: green;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: rosybrown;
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+main {
+    padding: 30px;
+}
+
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Automatically fit movies in columns */
+    gap: 32px;
+    padding: 5px;
+    margin: 5px;
+    justify-items: center; /* Center items horizontally */
+}
+
+.movie-card {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    color: peru;
+    background-color: orangered;
+}
+
+.movie-card img {
+    max-width: 100%;
+    max-height: 150px; /* Adjust height for better visibility */
+    object-fit: contain; /* Crop image to fit within the card */
+}
+
+button {
+    margin-top: 8px;
+    padding: 8px 16px;
+    background-color: orchid;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6200ff;
+    color: whitesmoke;
+}
+
+nav {
+    background-color: #aaffb5;
+}
+
+.container {
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: black;
+    font-size: larger;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: olive;
+}
+
+.navbar-nav .nav-link {
+    color: yellowgreen;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: violet;
+}
+
+/* Search results styles */
+#searchResults .card {
+    width: 100%;
+    max-width: 200px;
+    min-height: 280px; /* Adjust height for better visibility */
+    margin: 5px;
+    color: darkslategrey;
+    font-weight: bolder;
+    background-color: gold;
+    object-fit: cover;
+}
+
+#favouritesList p {
+    padding-left: 20px;
+}
+
+#favouritesList .card {
+    background-color: magenta;
+    width: 100%;
+    max-width: 200px;
+    min-height: 280px; /* Adjust height for better visibility */
+    margin: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#favouritesList .card-img-top {
+    height: 150px; /* Adjust height for better visibility */
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+#favouritesList .card-body {
+    padding: 10px;
+}
+
+#favouritesList .card-title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#favouritesList .more-button {
+    margin-top: 10px;
+}
